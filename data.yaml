@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Arthur', 'Matuck']
+
+roboflow:
+  workspace: coffee-xuevo
+  project: face-luia7
+  version: 19
+  license: Public Domain
+  url: https://universe.roboflow.com/coffee-xuevo/face-luia7/dataset/19
